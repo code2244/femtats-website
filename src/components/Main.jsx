@@ -1,11 +1,12 @@
 import React from "react";
+import logo from '../assets/logo.png'
 
 export default function Main() {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row">
         <img
-          src="src/assets/logo.png"
+          src={logo}
           className="max-w-sm rounded-lg shadow-2xl"
         />
         <div>
