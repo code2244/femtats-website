@@ -12,9 +12,10 @@ and links to her social media.
 ## Optimizations
 - Improve the gallery design 
 - Add Calendar to schedule appointments
-- Add form so clients can make appointments through the website and not IG Direct Messages.
+- Add forms so clients can make appointments through the website and not IG Direct Messages.
 
 ## Lessons Learned:
 - Setting up React projects witrh Vite.
 - Working with Tailwind CSS in React projects.
 - Working with daisyUI as a plugin with Tailwind CSS
+- Deploying Vite React projects with GitHub and Netlify.
