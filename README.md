@@ -1,5 +1,5 @@
 
-# Tattoo artistas website: Leidifem 
+# Tattoo artists website: Leidifem 
 Portfolio website for the tattoo artist Leidifem. Contains a gallery with her work
 and links to her social media.
 
