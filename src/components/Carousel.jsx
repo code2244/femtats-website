@@ -6,26 +6,27 @@ import art3 from "../assets/art3.png";
 export default function Carousel() {
   return (
     <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content ">
-        <div className="carousel rounded-box w-full">
-          <div className="carousel-item">
-            <img src={art1} alt="sorted tattoos" />
+      <div className="hero-content">
+        <div className="carousel rounded-box">
+          <div className="carousel-item w-1/2">
+            <img
+              src={art1}
+              className="w-full"
+            />
           </div>
-          <div className="carousel-item">
-            <img src={art2} alt="sorted tattoos" />
+          <div className="carousel-item w-1/2">
+            <img
+              src={art2}
+              className="w-full"
+            />
           </div>
-          <div className="carousel-item">
-            <img src={art3} alt="sorted tattoos" />
+          <div className="carousel-item w-1/2">
+            <img
+              src={art3}
+              className="w-full"
+            />
           </div>
-          <div className="carousel-item">
-            <img src={art1} alt="sorted tattoos" />
-          </div>
-          <div className="carousel-item">
-            <img src={art2} alt="sorted tattoos" />
-          </div>
-          <div className="carousel-item">
-            <img src={art3} alt="sorted tattoos" />
-          </div>
+          
         </div>
       </div>
     </div>
