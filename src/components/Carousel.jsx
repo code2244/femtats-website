@@ -7,7 +7,7 @@ export default function Carousel() {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content">
-        <div className="w-96 carousel rounded-box">
+        <div className="w-96 carousel rounded-box md:w-full">
           <div className="carousel-item w-full md:w-1/2">
             <img
               src={art1}
