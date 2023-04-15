@@ -1,7 +1,12 @@
 import React from "react";
-import art1 from "../assets/art1.png";
-import art2 from "../assets/art2.png";
-import art3 from "../assets/art3.png";
+import art1 from "../assets/flowerbags.png";
+import art2 from "../assets/flowerbagsbw.png";
+import art3 from "../assets/flowerflash.png";
+import art4 from "../assets/flowerflashpink.png"
+import art5 from "../assets/mariposavuela.png"
+import art6 from "../assets/ornaments.png"
+import art7 from "../assets/ornamentsbw.png"
+import art8 from "../assets/ornamentsbwbluebg.png"
 
 export default function Carousel() {
   return (
@@ -23,6 +28,36 @@ export default function Carousel() {
           <div className="carousel-item w-full md:w-1/2">
             <img
               src={art3}
+              className="w-full"
+            />
+          </div>
+          <div className="carousel-item w-full md:w-1/2">
+            <img
+              src={art4}
+              className="w-full"
+            />
+          </div>
+          <div className="carousel-item w-full md:w-1/2">
+            <img
+              src={art5}
+              className="w-full"
+            />
+          </div>
+          <div className="carousel-item w-full md:w-1/2">
+            <img
+              src={art6}
+              className="w-full"
+            />
+          </div>
+          <div className="carousel-item w-full md:w-1/2">
+            <img
+              src={art7}
+              className="w-full"
+            />
+          </div>
+          <div className="carousel-item w-full md:w-1/2">
+            <img
+              src={art8}
               className="w-full"
             />
           </div>
