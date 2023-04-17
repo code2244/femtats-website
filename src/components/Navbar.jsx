@@ -7,13 +7,13 @@ export default function Navbar() {
       <nav class="relative container mx-auto p-6">
         <div class="flex items-center justify-center">
           <div class="space-x-6 md:flex">
-            <a href="#" class="hover:text-darkGreyishBlue">
+            <a href="#hero" class="hover:text-darkGreyishBlue">
               Home
             </a>
-            <a href="#" class="hover:text-darkGreyishBlue">
+            <a href="#gallery" class="hover:text-darkGreyishBlue">
               Gallery
             </a>
-            <a href="#" class="hover:text-darkGreyishBlue">
+            <a href="#aboutMe" class="hover:text-darkGreyishBlue">
               About Me
             </a>
             <a href="#" class="hover:text-darkGreyishBlue">
