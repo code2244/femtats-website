@@ -1,11 +1,13 @@
+import Navbar from "./components/Navbar";
 import Main from "./components/Main";
-import Carousel from "./components/Carousel";
+import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 export default function App() {
   return (
     <div>
+      <Navbar />
       <Main />
-      <Carousel />
+      <Gallery />
       <Footer />
     </div>
   );
