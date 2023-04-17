@@ -12,18 +12,18 @@ export default function Gallery() {
   return (
     <section id="gallery">
       <div className="container p-5 mx-auto">
-        <div className="grid grid-cols-2 gap-2">
-          <div className="max-w-sm">
+        <div className="grid grid-cols-2 gap-2 justify-items-center">
+          <div className="max-w-sm md:max-w-md">
             <img src={art1} />
           </div>
-          <div className="max-w-sm">
+          <div className="max-w-sm md:max-w-md">
+            <img src={art2} />
+          </div>
+          <div className="max-w-sm md:max-w-md">
             <img src={art3} />
           </div>
-          <div className="max-w-sm">
+          <div className="max-w-sm md:max-w-md">
             <img src={art4} />
-          </div>
-          <div className="max-w-sm">
-            <img src={art2} />
           </div>
         </div>
       </div>
