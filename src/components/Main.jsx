@@ -1,23 +1,16 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import tatuandophoto from "../assets/alextatuando.png"
+import tatuandophoto from "../assets/alextatuando.png";
 
 export default function Main() {
   return (
-    <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row">
-        <img src={logo} className="max-w-sm shadow-2xl" />
-        <img src={tatuandophoto} className="max-w-sm  shadow-2xl" />
-        <div>
-        
-          <div className="chat chat-start">
-            <div className="chat-bubble chat-bubble-accent btn border-none">
-             <p> <a href="https://www.instagram.com/fem.tats/">SACA CITA!</a></p>
-              
-            </div>
-          </div>
+    <section id="hero">
+      <div className="container flex flex-col justify-center p-5 mx-auto">
+        <div className="container flex flex-col justify-center md:w-1/2 md:flex-row mx-auto" >
+          <img src={logo} />
+          <img src={tatuandophoto} />
         </div>
       </div>
-    </div>
-  );
+    </section>
+  )
 }
