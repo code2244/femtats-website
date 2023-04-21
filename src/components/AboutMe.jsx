@@ -4,8 +4,7 @@ export default function AboutMe() {
   return (
     <section id="aboutMe">
       <div className="container flex flex-col justify-center p-5 mx-auto">
-        <div className="container flex justify-center">
-          <img src={alepinchando} className="md:max-w-md" />
+        <div className="container flex justify-center mx-5">
           <div className="flex my-auto text-center">
             <p className="text-4xl font-bold text-center">
               Hola! Soy Alexandra, conocí el arte mediante el graffiti a mis 16
