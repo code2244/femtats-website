@@ -13,10 +13,10 @@ export default function Navbar() {
             <a href="#gallery" class="hover:text-darkGreyishBlue">
               Gallery
             </a>
-            <a href="#aboutMe" class="hover:text-darkGreyishBlue">
+            <a href="#aboutme" class="hover:text-darkGreyishBlue">
               About Me
             </a>
-            <a href="#" class="hover:text-darkGreyishBlue">
+            <a href="#citas" class="hover:text-darkGreyishBlue">
              Citas
             </a>
           </div>
