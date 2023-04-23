@@ -11,7 +11,7 @@ import art8 from "../assets/ornamentsbwbluebg.png";
 export default function Gallery() {
   return (
     <section id="gallery">
-      <div className="container p-5 mx-auto">
+      <div className="container p-5 mx-auto min-h-screen">
         <div className="grid grid-cols-2 gap-2 justify-items-center">
           <div className="max-w-sm md:max-w-md">
             <img src={art1} />

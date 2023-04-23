@@ -1,14 +1,14 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import tatuandophoto from "../assets/alextatuando.png";
+import alepinchando from "../assets/alepinchando1.png";
 
 export default function Main() {
   return (
     <section id="hero">
-      <div className="container flex flex-col justify-center p-5 mx-auto">
-        <div className="container flex flex-col justify-center md:w-1/2 md:flex-row mx-auto" >
+      <div className="container flex flex-col justify-center p-5 mx-auto min-h-screen">
+        <div className="container flex flex-col justify-center max-w-sm md:max-w-md md:flex-row mx-auto" >
           <img src={logo} />
-          <img src={tatuandophoto} />
+          <img src={alepinchando} className="" />
         </div>
       </div>
     </section>
