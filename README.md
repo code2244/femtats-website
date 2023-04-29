@@ -1,6 +1,6 @@
 
 # Website for tattoo artists: Leidifem 
-Portfolio website for the tattoo artist Leidifem. Contains a gallery with her work
+Portfolio website for the tattoo artist Leidifem. Contains a gallery with their work
 and links to her social media.
 
 **Link to project:** https://www.femtats.com
