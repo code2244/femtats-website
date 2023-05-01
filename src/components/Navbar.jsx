@@ -4,7 +4,7 @@ import logo from "../assets/femlogo.png";
 export default function Navbar() {
   return (
     <div>
-      <nav class="relative container mx-auto p-6">
+      <nav class="relative container mx-auto p-6 ">
         <div class="flex items-center justify-center">
           <div class="space-x-6 md:flex">
             <a href="#hero" class="hover:text-darkGreyishBlue">
